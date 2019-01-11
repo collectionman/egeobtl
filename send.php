@@ -1,13 +1,13 @@
-<!--
-    To send a mail to egepbtl@gmail.com
--->
+<?php
 
-<!-- form variables -->
+/* To send a mail to egepbtl@gmail.com */
+
+// form variables
 $name = $_POST[ 'name' ] ;
 $email = $_POST[ 'email' ] ;
 $message = $_POST[ 'message' ] ;
 
-<!-- email address -->
+// email address
 $to = 'egeobtl@gmail.com' ;
 $subject = 'EGEO' ;
 $header = 'Form: ' . $email ;
@@ -23,3 +23,4 @@ if ( $_POST[ 'submit' ] ) {
     }
 }
 
+?>
