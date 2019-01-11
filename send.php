@@ -10,7 +10,7 @@ $message = $_POST[ 'message' ] ;
 <!-- email address -->
 $to = 'egeobtl@gmail.com' ;
 $subject = 'EGEO' ;
-$header = "Form: $email" ;
+$header = 'Form: ' . $email ;
 $messageCompleted = "Nombre: $name\n E-mail: $email Mensaje:\n $message" ; 
 
 if ( $_POST[ 'submit' ] ) {
