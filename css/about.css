@@ -1,0 +1,56 @@
+/* about section */
+
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes') ;
+@import url('https://fonts.googleapis.com/css?family=Montserrat') ;
+ 
+.about {
+    text-align: center ;
+    font-family: 'Great Vibes', cursive ;
+}
+
+.about-us {
+    text-align: center ;
+    font-size: 70px ;
+    margin-bottom: 10px ;
+    font-weight: 600 ;
+    height: auto ; 
+}
+
+.slogan {
+    font-size: 40px ;
+    font-weight: 300 ;
+    text-align: center ;
+    margin-bottom: 24px ;
+}
+
+.paragraph {
+    margin-bottom: 13px ;
+    font-weight: 300 ;
+    font-size: 16px ;
+    text-align: justify ;
+    text-transform: uppercase ;
+    line-height: 30px ;
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: bolder ;
+    color: #000000 ;
+}
+
+.about .button {
+    display: inline-block ;
+    padding: 6px ;
+    width: 128px ;
+    font-size: 20px ;
+    font-weight: bold ;
+    margin-top: 24px ;
+    border: 2px solid #1b1b1b ;
+    color: #1b1b1b ;
+    text-decoration: none ;
+    border-radius: 16px ; /* los bordes quedan de manera circular */
+    font-family: 'Montserrat', sans-serif ;     
+}
+
+.about .button:hover {
+    border: 2px solid #ffffff ;
+    color: #ffffff ;
+    background-color: #35575F ;
+}

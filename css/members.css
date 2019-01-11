@@ -1,0 +1,54 @@
+/* cards section */
+
+/*
+.cards {
+    width: 100% ;
+    margin: auto ;
+    display: flex ;
+    flex-wrap: wrap ; // uno debajo del otro  
+    justify-content: space-around ;
+}
+*/
+
+/*
+.cards img {
+    width: 140px ;
+    height: 140px ;
+    object-fit: cover ;
+    border-radius: 100% ; 
+}
+*/
+
+
+.icon-wrap {
+    margin: 0 auto ;
+    height: 120px ;
+    width: 120px ;
+    background-color: #7ECDDF   ;
+    border-radius: 120% ;
+}
+
+.icon-wrap-1 {
+    background-color: #7ECDDF   ;
+}
+
+.icon-wrap-2 {
+    background-color: #64A3B1 ;
+}
+
+.icon-wrap-3 {
+    background-color: #4A7983 ;
+}
+
+.icon-wrap-4 {
+    background-color: #35575F ;
+}
+
+.icon-wrap i {
+    text-align: center ;
+    color: #ffffff ;
+    font-size: 400% ;
+    padding: 20% ;
+}
+
+

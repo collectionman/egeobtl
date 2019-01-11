@@ -1,0 +1,458 @@
+* {
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box ;
+}
+
+body {
+    font-family: 'Code Light' ;
+    font-size: 16px ;
+}
+
+/* header section */
+
+header {
+    width: 100% ;
+    height: 640px ;
+    background-image: url( "../img/mar-egeo.jpg" ) ; /* banner image fixed */
+    background-attachment: fixed ;  /* esconde la imagen a medida que la barra de navegación desciende*/
+    background-position: center ;
+    background-size: cover ;
+    position: relative ;
+    overflow: hidden ;
+    text-align: center ;
+    color: #ffffff ;
+    font-family: 'Poiret One', cursive;
+}
+
+header img {
+    width: 100% ;
+    max-height: 640px ;
+    /* border-radius: 100% ; */
+}
+
+header .text {
+    margin-top: 152px ;
+}
+
+header .title {
+    font-size: 80px ;
+    color: #20353a ;
+}
+
+header .subtitle {
+    font-size: 60px ;
+    font-weight: 300 ;
+    margin-bottom: 32px ;
+    /* color: #71b9ca  ; */
+}
+
+/* button styles */
+
+header .button {
+    display: inline-block ;
+    padding: 6px ;
+    width: 128px ;
+    font-size: 24px ;
+    border: 2px solid #ffffff ;
+    color: #ffffff ;
+    text-align: center ;
+    text-decoration: none ;
+    border-radius: 16px ; /* los bordes quedan de manera circular */ 
+}
+
+.about .button {
+    display: inline-block ;
+    padding: 6px ;
+    width: 128px ;
+    font-size: 20px ;
+    font-weight: 300 ;
+    margin-top: 24px ;
+    border: 2px solid #1b1b1b ;
+    color: #1b1b1b ;
+    text-decoration: none ;
+    border-radius: 16px ; /* los bordes quedan de manera circular */     
+}
+
+header .button:hover {
+    background-color: rgba(190,190,190,0.3) ;
+}
+
+/* recort classes */
+
+.bottom-recort {
+    z-index: 10 ;
+    position: absolute ;
+    bottom: 0 ;
+    left: 0 ;
+    border-width: 0 0 35vh 100vw ;
+    border-style: solid ;
+    border-color: transparent transparent #ffffff transparent ;
+}
+
+.top-recort {
+    z-index: 10 ;
+    position: absolute ;
+    top: 0 ;
+    left: 0 ;
+    border-width: 35vh 100vw 0 0 ;
+    border-style: solid ;
+    border-color:  #ffffff  transparent transparent transparent ;
+}
+
+.container {
+    width: 90% ;
+    max-width: 1000px ;
+    margin: auto ;
+    overflow: hidden ;
+    padding: 52px 0 ;
+}
+
+/* about section */
+
+.about {
+    text-align: center ;
+}
+
+.about-us {
+    text-align: center ;
+    font-size: 56px ;
+    margin-bottom: 10px ;
+    font-weight: 600 ;
+    height: auto ; 
+}
+
+.slogan {
+    font-size: 24px ;
+    font-weight: 300 ;
+    text-align: center ;
+    margin-bottom: 24px ;
+}
+
+.paragraph {
+    margin-bottom: 13px ;
+    font-weight: 300 ;
+    font-size: 24px ;
+    text-align: justify ;
+    line-height: 30px ;
+    font-family: 'Charm', cursive ;
+    color: #000000 ;
+}
+
+/* gallery section */
+
+.gallery {
+    width: 100% ;
+    height: 500px ;
+    overflow: hidden ;
+    display: flex ;
+    position: relative ; /* se posiciona de acuerdo al padre */
+}
+
+.images {
+    width: 20% ;
+    height: 500px ;
+    overflow: hidden ;
+    position: relative ;
+}
+
+.images img {
+    width: 100% ;
+    height: 100% ;
+    object-fit: cover ; /* arregla el aspecto de las imagenes */
+}
+
+
+.over {
+    position: absolute ;
+    top: 0 ;
+    left: 0 ;
+    width: 100% ;
+    height: 100% ;
+}
+
+.over-1 {
+    background: rgb( 126, 187, 200 );
+}
+
+.over-2 {
+    background: rgb( 111, 173, 185 );
+}
+
+.over-3 {
+    background: rgb( 76, 125, 136 );
+}
+
+.over-4 {
+    background: rgb( 52, 88, 96 );
+}
+
+.over-5 {
+    background: rgb( 31, 50, 54 );
+}
+
+.over-3 h2 {
+    position: relative ;
+    top: 45% ;
+    font-size: 48px ;
+    text-align: center ;
+    color: #ffffff ;
+}
+
+.over-3 div {
+    position: relative ;
+    display: block ;
+    top: 46% ;
+    width: 40px ;
+    height: 5px ;
+    background: #ffffff ;
+    margin: auto ;
+}
+
+/* cards section */
+
+.cards {
+    width: 100% ;
+    margin: auto ;
+    display: flex ;
+    flex-wrap: wrap ; /* uno debajo del otro */ 
+    justify-content: space-around ;
+}
+
+/*
+.cards img {
+    width: 140px ;
+    height: 140px ;
+    object-fit: cover ;
+    border-radius: 100% ; 
+}
+*/
+
+
+.icon-wrap {
+    margin: 0 auto ;
+    height: 120px ;
+    width: 120px ;
+    background-color: #7ECDDF   ;
+    border-radius: 120% ;
+    text-align: center ;
+    margin-top: 3% ;
+}
+
+.icon-wrap-1 {
+    background-color: #7ECDDF   ;
+}
+
+.icon-wrap-2 {
+    background-color: #64A3B1 ;
+}
+
+.icon-wrap-3 {
+    background-color: #4A7983 ;
+}
+
+.icon-wrap-4 {
+    background-color: #35575F ;
+}
+
+.icon-wrap i {
+    text-align: center ;
+    color: #ffffff ;
+    font-size: 400% ;
+    padding: 20% ;
+}
+
+.card {
+    margin: 20px 0 ;
+    width: 30% ;
+    height: 250px ;
+    text-align: center ;
+    padding: 20px ;
+    box-shadow: 0px 0px 4px 0px rgba( 52, 73, 94, 0.5 ) ;
+}
+
+.card h4 {
+    margin-top: 10px ;
+}
+
+/* background  section */
+
+.background {
+    height: 900px ;
+    position: relative ;
+    overflow: hidden ;
+    background-attachment: fixed ;
+    background-position: center ;
+    background-image: url( "../img/fondo.png" ) ;
+    padding-top: 130px ; 
+}
+
+.unique-bottom-recort {
+    z-index: 10 ;
+    position: absolute ;
+    bottom: 0 ;
+    left: 0 ;
+    border-width: 0 0 35vh 100vw ;
+    border-style: solid ;
+    border-color: transparent transparent #2c3e50 transparent ;    
+}
+
+/* patners */
+
+.patners-title, .patners-subtitle {
+    color: #ffffff ;
+    text-align: center ;
+}
+
+.patners-title {
+    font-size: 54px ;
+    margin-top: 48px ;
+}
+
+.patners-subtitle {
+    font-size: 24px ;
+    font-weight: 300 ;
+    margin-bottom: 64px ;
+}
+
+.clients {
+    display: flex ;
+    flex-wrap: wrap ;
+    margin-bottom: 64px ;
+    width: 100% ;
+    justify-content: space-between ;
+}
+
+.client {
+    width: 30% ;
+    height: 20% ;
+    max-width: 250px ;
+    max-height: 100px ;
+}
+
+.client img {
+    width: 100% ;
+}
+
+.client-text {
+    text-align: center ;
+    color: #ffffff ;
+}
+
+/* footer form */
+
+footer {
+    background: #2c3e50 ;
+    height: auto ;
+}
+
+.footer-title, .footer-subtitle {
+    color: #ffffff ;
+    text-align: center ;
+}
+
+.footer-title {
+    font-size: 56px ;
+}
+
+.footer-subtitle {
+    font-size: 24px ;
+    font-weight: 400 ;
+    margin-bottom: 64px ;
+}
+
+form {
+    display: flex ;
+    width: 100% ;
+    justify-content: space-between ;
+    flex-wrap: wrap ;
+    margin: auto ;
+}
+
+input[type="text"], input[type="email"] {
+    display: inline-block ;
+    width: 48% ;
+    padding: 13px ;
+    border: none ;
+    color: #ffffff ;
+    font-family: 'open sans' ;
+    background: rgba( 37, 37, 33, 0.7 ) ;
+    margin-bottom: 16px ;
+    border-top: 5px solid rgba( 37, 37, 33, 0.7 ) ;
+}
+
+input[type="text"]:focus, input[type="email"]:focus {
+    border-top: 5px solid rgba( 200, 200, 200, 0.7 ) ;
+}
+
+input[type="submit"] {
+    display: inline-block ;
+    width: 96px ;
+    padding: 13px ;
+    border: none ;
+    color: #ffffff ;
+    font-family: 'open sans' ;
+    background: rgba( 37, 37, 33, 0.7 ) ;
+    margin-bottom: 16px ;
+    border-top: 1px solid rgba( 37, 37, 33, 0.7 ) ;       
+}
+
+textarea {
+    display: block ;
+    width: 100% ;
+    max-width: 100% ;
+    min-width: 100% ;
+    max-height: 200px ;
+    min-height: 200px ;
+    background: rgba( 37, 37, 33, 0.7 ) ;
+    padding: 13px ;
+    border: none ;
+    color: #ffffff ;
+    font-family: 'open sans' ;
+    margin-bottom: 16px ;  
+}
+
+/* Responsive section */
+
+@media screen and ( max-width:760px ) {
+    .paragraph {
+        margin-bottom: 10px ;
+        font-weight: 200 ;
+        text-align: justify ;
+        line-height: 20px ;
+        color: #1b1b1b
+    }
+
+    .over h2 {
+        position: relative ;
+        top: 45% ;
+        font-size: 25px ;
+        text-align: center ;
+        color: #ffffff ;
+    }
+
+    .icon-wrap {
+        width: 60px ;
+        height: 60px ;
+        object-fit: cover ;
+        border-radius: 100% ; 
+    }
+    
+    .cards {
+        width: 100% ;
+        margin: auto ;
+        display: flex ;
+        flex-wrap: wrap ; /* uno debajo del otro */
+        font-family: 'Staatliches', cursive ;
+        font-size: 8px ; 
+        justify-content: space-around ;
+    }
+
+    .card h4 {
+        font-size: 12px ;     
+    }
+
+    .card p {
+        font-size: 12px ;     
+    }
+}

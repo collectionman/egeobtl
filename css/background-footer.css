@@ -1,0 +1,115 @@
+/* background  section */
+
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes') ;
+
+.background {
+    height: 600px ;
+    position: relative ;
+    overflow: hidden ;
+    background-attachment: fixed ;
+    background-position: center ;
+    background-image: url( "../img/fondo.png" ) ;
+    padding-top: 200px ; 
+}
+
+.unique-bottom-recort {
+    z-index: 10 ;
+    position: absolute ;
+    bottom: 0 ;
+    left: 0 ;
+    border-width: 0 0 35vh 100vw ;
+    border-style: solid ;
+    border-color: transparent transparent #2c3e50 transparent ;    
+}
+
+/* patners */
+
+.patners-title, .patners-subtitle {
+    color: #ffffff ;
+    text-align: center ;
+    font-family: 'Great Vibes', cursive ;
+}
+
+.patners-title {
+    font-size: 54px ;
+}
+
+.patners-subtitle {
+    font-size: 24px ;
+    font-weight: 300 ;
+    margin-bottom: 64px ;
+}
+
+/* footer form */
+
+footer {
+    background: #2c3e50 ;
+    height: auto ;
+}
+
+.footer-title, .footer-subtitle {
+    color: #ffffff ;
+    text-align: center ;
+    font-family: 'Great Vibes', cursive ;
+}
+
+.footer-title {
+    font-size: 60px ;
+}
+
+.footer-subtitle {
+    font-size: 30px ;
+    font-weight: 400 ;
+    margin-bottom: 64px ;
+}
+
+form {
+    display: flex ;
+    width: 100% ;
+    justify-content: space-between ;
+    flex-wrap: wrap ;
+    margin: auto ;
+}
+
+input[type="text"], input[type="email"] {
+    display: inline-block ;
+    width: 48% ;
+    padding: 13px ;
+    border: none ;
+    color: #ffffff ;
+    font-family: 'open sans' ;
+    background: rgba( 37, 37, 33, 0.7 ) ;
+    margin-bottom: 16px ;
+    border-top: 5px solid rgba( 37, 37, 33, 0.7 ) ;
+}
+
+input[type="text"]:focus, input[type="email"]:focus {
+    border-top: 5px solid rgba( 200, 200, 200, 0.7 ) ;
+}
+
+input[type="submit"] {
+    display: inline-block ;
+    width: 96px ;
+    padding: 13px ;
+    border: none ;
+    color: #ffffff ;
+    font-family: 'open sans' ;
+    background: rgba( 37, 37, 33, 0.7 ) ;
+    margin-bottom: 16px ;
+    border-top: 1px solid rgba( 37, 37, 33, 0.7 ) ;       
+}
+
+textarea {
+    display: block ;
+    width: 100% ;
+    max-width: 100% ;
+    min-width: 100% ;
+    max-height: 200px ;
+    min-height: 200px ;
+    background: rgba( 37, 37, 33, 0.7 ) ;
+    padding: 13px ;
+    border: none ;
+    color: #ffffff ;
+    font-family: 'open sans' ;
+    margin-bottom: 16px ;  
+}
