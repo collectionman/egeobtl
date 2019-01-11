@@ -4,9 +4,9 @@
 
 header {
     width: 100% ;
-    height: 640px ;
-    background-image: url( "../img/mar-egeo.jpg" ) ; /* banner image fixed */
-    background-attachment: fixed ;  /* esconde la imagen a medida que la barra de navegación desciende*/
+    height: 800px ;
+    background-image: url( "../img/ebanner.jpg" ) ; /* banner image fixed */
+    background-attachment: fixed ; /* esconde la imagen a medida que la barra de navegación desciende*/
     background-position: center ;
     background-size: cover ;
     position: relative ;

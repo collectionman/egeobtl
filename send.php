@@ -1,8 +1,10 @@
 <?php
 
-/* To send a mail to egepbtl@gmail.com */
+/* To send a mail to egeobtl@gmail.com */
 
 // form variables
+// $_POST es un array que almacena las variables del formulario que se quieren enviar con dicho método
+
 $name = $_POST[ 'name' ] ;
 $email = $_POST[ 'email' ] ;
 $message = $_POST[ 'message' ] ;
