@@ -1,6 +1,11 @@
 /* Responsive section */
 
 @media screen and ( max-width:760px ) {
+    
+    header {
+        max-width: 400px ; 
+    }
+
     header .title {
         font-size: 60px ;   
     }

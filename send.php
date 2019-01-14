@@ -17,9 +17,9 @@ $messageCompleted = "Nombre: $name\n E-mail: $email Mensaje:\n $message" ;
 
 if ( $_POST[ 'submit' ] ) {
     if ( mail( $to, $subject, $messageCompleted, $header ) ) {
-        echo "<script language='javascript'>alert( 'Tu mensaje ha sido enviado correctamente, pronto te responderemos' ) ;</script>" ;
+        echo '<script language="javascript">alert( "Tu mensaje ha sido enviado correctamente, pronto te responderemos" ) ;</script>' ;
     } else {
-        echo 'fallo al enviar correo' ;
+        echo '<script language="javascript">alert(fallo al enviar mensaje) ;</script>' ;
     }
 }
 

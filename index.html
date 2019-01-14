@@ -23,7 +23,21 @@
     <title>Egeo</title>
 </head>
 <body>
-    <header>
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <a class="navbar-brand font-weight-bold" href="#banner">EGEO</a>
+        <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon button-color"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link f-link" href="#banner">INICIO</a>
+                <a class="nav-item nav-link s-link" href="#us">¿QUIENES SOMOS?</a>
+                <a class="nav-item nav-link t-link" href="#services">SERVICIOS</a>
+                <a class="nav-item nav-link fo-link" href="#contact">CONTACTO</a>
+            </div>
+        </div>
+    </nav>
+    <header id="banner">
         <!--
         <div class="text">
             <h1 class="title">Egeo</h1>
@@ -134,7 +148,7 @@
             <div class="unique-bottom-recort"></div>
         </section>
     </main>
-    <footer>
+    <footer id="contact">
         <div class="container">
             <h2 class="footer-title">Dejanos tu mensaje</h2>
             <h3 class="footer-subtitle">Lo estamos esperando!</h3>
@@ -144,6 +158,14 @@
                     <input type="email" name="email" id="" placeholder="Email">
                     <textarea name="message" cols="30" rows="10" placeholder="Escribe tu comentario"></textarea>
                     <input type="submit" name="submit" value="Enviar">
+                    <div class="ml-auto">
+                        <a href="https://www.facebook.com/egeobtl" class="text-white">
+                            <i class="fab fa-facebook-square fa-2x pr-2"></i>
+                        </a>
+                        <a href="https://www.instagram.com/egeobtl" class="text-white">
+                            <i class="fab fa-instagram fa-2x"></i>
+                        </a>
+                    </div>
                 </form>
             </div>
         </div>
