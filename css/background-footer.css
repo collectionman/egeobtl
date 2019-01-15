@@ -1,6 +1,7 @@
 /* background  section */
 
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes') ;
+@import url('https://fonts.googleapis.com/css?family=Montserrat') ;
 
 .background {
     height: 600px ;
@@ -76,9 +77,8 @@ input[type="text"], input[type="email"] {
     width: 48% ;
     padding: 13px ;
     border: none ;
-    color: #ffffff ;
-    font-family: 'open sans' ;
-    background: rgba( 37, 37, 33, 0.7 ) ;
+    color: #333333 ;
+    background: rgba( 225, 225, 225, 1 ) ;
     margin-bottom: 16px ;
     border-top: 5px solid rgba( 37, 37, 33, 0.7 ) ;
 }
@@ -92,11 +92,11 @@ input[type="submit"] {
     width: 96px ;
     padding: 13px ;
     border: none ;
-    color: #ffffff ;
-    font-family: 'open sans' ;
-    background: rgba( 37, 37, 33, 0.7 ) ;
+    color: #333333 ;
+    background: rgba( 225, 225, 225, 1 ) ;
     margin-bottom: 16px ;
-    border-top: 1px solid rgba( 37, 37, 33, 0.7 ) ;       
+    border-top: 1px solid rgba( 37, 37, 33, 0.7 ) ;  
+    font-weight: bold ;     
 }
 
 textarea {
@@ -106,10 +106,9 @@ textarea {
     min-width: 100% ;
     max-height: 200px ;
     min-height: 200px ;
-    background: rgba( 37, 37, 33, 0.7 ) ;
+    background: rgba( 225, 225, 225, 1 ) ;
     padding: 13px ;
     border: none ;
-    color: #ffffff ;
-    font-family: 'open sans' ;
+    color: #111111 ;
     margin-bottom: 16px ;  
 }
