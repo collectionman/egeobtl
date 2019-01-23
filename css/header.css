@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poiret+One') ;
 
 header {
-    width: 100% ;
+    max-width: 100% ;
     height: 800px ;
     background-image: url(../img/ebanner.jpg) ;
     background-attachment: fixed ; /* esconde la imagen a medida que la barra de navegación desciende*/
