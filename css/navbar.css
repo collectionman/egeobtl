@@ -1,6 +1,14 @@
+nav .navbar-brand {
+    text-shadow: 1px 1px #222 ;
+}
+
 nav div .f-link {
     color: #7ECDDF  ;
     font-weight: bold ;
+}
+
+nav div .f-link:hover {
+    text-shadow: 1px 1px #222 ;    
 }
 
 nav div .s-link {
@@ -8,12 +16,26 @@ nav div .s-link {
     font-weight: bold ;
 }
 
+nav div .s-link:hover {
+    text-shadow: 1px 1px #222 ;    
+}
+
+
 nav div .t-link {
     color: #4A7983 ;
     font-weight: bold ;
 }
 
+nav div .t-link:hover {
+    text-shadow: 1px 1px #222 ;    
+}
+
+
 nav div .fo-link {
     color: #35575F ;
     font-weight: bold ;
+}
+
+nav div .fo-link:hover {
+    text-shadow: 1px 1px #222 ;    
 }
