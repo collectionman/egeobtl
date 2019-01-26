@@ -42,10 +42,10 @@
     font-size: 20px ;
     font-weight: bold ;
     margin-top: 24px ;
-    border: 2px solid #1b1b1b ;
-    color: #1b1b1b ;
+    border: 2px solid #35575F ;
+    color: #35575F ;
     text-decoration: none ;
-    border-radius: 16px ; /* los bordes quedan de manera circular */
+    border-radius: 0px ; /* los bordes quedan de manera circular */
     font-family: 'Montserrat', sans-serif ;     
 }
 
@@ -53,4 +53,5 @@
     border: 2px solid #ffffff ;
     color: #ffffff ;
     background-color: #35575F ;
+    transition: 800ms ;
 }
