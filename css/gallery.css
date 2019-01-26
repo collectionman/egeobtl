@@ -17,13 +17,6 @@
     position: relative ;
 }
 
-.images img {
-    width: 100% ;
-    height: 100% ;
-    object-fit: cover ; /* arregla el aspecto de las imagenes */
-}
-
-
 .over {
     position: absolute ;
     top: 0 ;
