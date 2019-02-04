@@ -23,10 +23,12 @@
     }
 
     .about-us {
-        font-size: 50px ;
+        font-size: 35px ;
     }
 
     .slogan {
+        border: 2px solid #000000 ;
+        padding: 20px 10px ;
         font-size: 20px ; 
     }
 
