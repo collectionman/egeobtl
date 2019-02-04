@@ -29,7 +29,8 @@
     .slogan {
         border: 2px solid #000000 ;
         padding: 20px 10px ;
-        font-size: 20px ; 
+        font-size: 20px ;
+        color: #000000 ;
     }
 
     .paragraph {
