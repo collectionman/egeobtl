@@ -22,6 +22,14 @@
         font-size: 40px ;
     }
 
+    .about-us {
+        font-size: 50px ;
+    }
+
+    .slogan {
+        font-size: 20px ; 
+    }
+
     .paragraph {
         margin-bottom: 10px ;
         font-weight: 200 ;
@@ -61,6 +69,11 @@
 
     .card p {
         font-size: 16px ;     
+    }
+
+    .background {
+        padding-top: 100px ;
+        padding-bottom: 50px ; 
     }
 
     .patners-title {
