@@ -3,8 +3,9 @@
 @import url('https://fonts.googleapis.com/css?family=Poiret+One') ;
 
 header {
-    max-width: 100% ;
+    max-width: 90% ;
     height: 660px ;
+    margin: 0 auto ;
     background-attachment: fixed ; /* esconde la imagen a medida que la barra de navegación desciende*/
     background-position: center ;
     background-size: cover ;
